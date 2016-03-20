@@ -17,4 +17,8 @@ $ cd travel-and-help-ci
 ### Launch cordova: [manual](https://cordova.apache.org/docs/en/latest/guide/cli/index.html)
 ```sh
 $ cordova create travel-and-help help.and.travel TravelAndHelp
+$ cordova platform add android --save
+$ cordova build android
+$ android avd
+$ cordova emulate android
 ```
