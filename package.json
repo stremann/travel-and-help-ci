@@ -1,0 +1,27 @@
+{
+  "name": "travel-and-help-ci",
+  "version": "1.0.0",
+  "description": "feed the homeless in chelyabinsk",
+  "scripts": {
+    "test": "echo 'test should be specified here'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stremann/travel-and-help-ci.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "express",
+    "mongodb"
+  ],
+  "author": {
+    "name": "react team",
+    "url": "https://github.com/stremann/travel-and-help-ci/blob/master/AUTHORS"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stremann/travel-and-help-ci/issues"
+  },
+  "homepage": "https://github.com/stremann/travel-and-help-ci#readme"
+}
