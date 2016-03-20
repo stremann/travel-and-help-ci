@@ -6,3 +6,7 @@ npm-debug.log*
 
 # Dependency directory
 node_modules
+
+# Cordova build files
+platforms
+plugins
