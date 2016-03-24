@@ -8,10 +8,25 @@
 - cordova -v ~6.0.0
 - java -v ~1.8.0_45
 
-### Running application:
+### Getting started:
 ```sh
 $ git clone [url] travel-and-help-ci
 $ cd travel-and-help-ci
+```
+
+### Start development:
+```sh
+$ npm start
+```
+
+### Run unit tests:
+```sh
+$ npm test
+```
+
+### Build application:
+```sh
+$ npm run build
 ```
 
 ### Launch cordova: [manual](https://cordova.apache.org/docs/en/latest/guide/cli/index.html)

@@ -1,0 +1,13 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+# For "text=auto" the path is marked for automatic end-of-line normalization.
+# If git decides that the content is text, its line endings are normalized to LF on check in.
+* text=auto eol=lf
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.html text
+*.js   text
+
+# Denote all files that are truly binary and should not be modified
+*.png binary
+*.jpg binary

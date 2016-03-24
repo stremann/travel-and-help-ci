@@ -10,3 +10,6 @@ node_modules
 # Cordova build files
 platforms
 plugins
+
+# Generated test reports
+test/coverage/
