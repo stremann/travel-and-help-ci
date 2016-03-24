@@ -37,8 +37,8 @@
     "url": "https://github.com/stremann/travel-and-help-ci/issues"
   },
   "engines": {
-    "node": "^5.9.0",
-    "npm": "^3.7.3"
+    "node": "^5.9.1",
+    "npm": "^3.8.2"
   },
   "homepage": "https://github.com/stremann/travel-and-help-ci#readme",
   "devDependencies": {
