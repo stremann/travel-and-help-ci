@@ -3,8 +3,8 @@
 ![EPAM Systems](http://stremann.github.io/assets/images/logo.svg)
 
 ### System requirements:
-- node -v ~5.9.0
-- npm -v ~3.7.3
+- node -v ~5.9.1
+- npm -v ~3.8.2
 - cordova -v ~6.0.0
 - java -v ~1.8.0_45
 
