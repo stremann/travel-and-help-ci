@@ -1,12 +1,3 @@
 language: node_js
 node_js:
   - '5'
-git:
-  depth: 5
-deploy:
-  provider: heroku
-  api_key:
-    secure: rwtzoe3IGfAsXXhv+K83kAklxQdD2wbrVyGxBzlLcBMTt1gKCP4sm55t5Gz8fYApg4sNWN7PZ5SJ1svzeP9w0QRebocU5RxEMVx/0J6p2xqtaRPPQS2zGEzh12aufmoC97aTvJMb2zlit+6W/oto3E+370FsQ5yVsOICrNs+FUpyOnD7lPXvaXs1NFMSL/DvoZBpFS+yagobmNibobfoiy9xFKEv0fOZ7JNUi4hJfzOaSQJI0ZMyHMQk/9OOL9i5GcAK8j9mJYEKOQUAxjnaAIIPVW4m1sWhSXr6i8PBV9/ThKy3HqAMLVpUp/zxX/Cv0lZaswZ794vr9sqWAfhyMzp36xcs+YWcv66ojp1LxL6oPh6a2d3zc6tt/z6CdCDaFDG7UMwIke4VcXb/SS2Q+mmw+lsij1IwMoA0JNSKW7vrNi+wNFwvXczwo3TPZXdlyYo6hJe/KkU41o8zLLMXAwVMqImvAiYCrcp1TNyq9oKQVnGx5dxAW1gixKLBoHV+nBKy2LKpoHa+EsKnv6uIVuUbQshfoJ7oq5dlz77HHewqzdpYZeNfJKgB5vglbyTyt7Ifev/TguAbyKwy5hRu7x9zt4h/F0XNUeIpb2BfzSIcbLTUU69JkBk0VkHaMnAnImncFxISVGrTlJnQO9yml2jm3jukBuPkKlZWUWwAWZU=
-  app: travel-and-help-ci
-  on:
-    repo: stremann/travel-and-help-ci
