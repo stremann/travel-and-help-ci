@@ -38,7 +38,7 @@
   },
   "engines": {
     "node": "^5.9.1",
-    "npm": "^3.8.2"
+    "npm": "^3.7.3"
   },
   "homepage": "https://github.com/stremann/travel-and-help-ci#readme",
   "devDependencies": {
