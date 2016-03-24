@@ -37,3 +37,11 @@ $ cordova build android
 $ android avd
 $ cordova emulate android
 ```
+
+### Setup heroku: [manual](https://www.chrissearle.org/2014/01/20/deploy-from-github-to-heroku-via-travis-ci/)
+```sh
+$ heroku --version
+$ heroku create travel-and-help-ci
+$ travis setup heroku
+$ git push heroku master
+```

@@ -1,15 +1,15 @@
 language: node_js
 node_js:
-  - "5"
+  - '5'
 git:
   depth: 3
 script:
   - npm run build
 deploy:
+  skip_cleanup: true
   provider: heroku
   api_key:
-    secure: X5zNh7SCKm8EqScU5tCK6dVPn+qabfUYAF/E/9W/LTMjZh6hle8Q/pL5HOlcf4MAnFF5cbpf0sEqDx6fNmsh+o18R3xsxVOvgSfL+uEoKy/qSjgB4BCCMzJKgzGclCLsZ8US4NXZ7xDODBlGJjTWrN0ih1N/WjrDkUZ78i5NeBshWGWEW9ggPnBHvb6rVnS1gad2HiyUTnu1/sDROPE2H47p+5yXCqis3cdQgi7FTyGLI6RVjc/lhvvFRCtLF7RTJ/Th7yHyWOGB8OW8pg1lN/BcrrvsDIbdQWBWNZGhsiUL+i9q9Vc+AXu6SY3hyi48SIgNBkeJ+4bjDMjCsN1eQFxyyvXWUfytCO8lSQ48dgyCOZzDi4eTbbO+nPePDVG44MjkTUHiTXSx54rpsnaHlaIszGqIz3TFv7wKW0+qt4wmwVI+Nvs9CAgRRwz9HClhxrROsVECNxJU4HU9HUGm11TXLn26IYSphm1G6ZX38U2ESVZ2QEmseqPUEcSc+5W9JQ8Ecjlzxi3cHGAQOoDoPGdzBBTp/JQEuXBGInDDfjM/VzUhkf7458xNH7rmM5Ok8JhfOiFmCB/eyfaUzZ3ftmpsJUIs2YiQ/ypiHJROcWjEa0Ru6J1eBuK3RttMQlk3p6MsP3HRtzZX79dKDCvCaNXTYEDeAdAYLUgxAfO+EO0=
-  skip_cleanup: true
+    secure: QL7SOXka980PfvoM4t5Q6qmk3tpvHUpN+3hTzK8vQHooNokwNBHgnkQGrXlfGuPSkYFav+WI5mTTXe71TsZll5ioi1AQ/1XRgs1d7d1VKnRxm6Logd+QvGX121j9UIUBZyn/OIlfDrLts8VyT+hvmhy3dkaY7gMZ7DxLpmD49GRhxMXz7PwUuYCmoGzSGOnq4c9uaoZtil8GaFBYNjVEA+n3bDhNgZ2KomOEbiK4sVuSK80mTaaeZR1rac8jispBvs47JlhhDpyUmY+k6ja2lRmfcCEr/Kq7sGE4/opBrUzKtjv7Ql+J5MraR1h/RAtMjUm/uJDXA8U0axPnRvKNIP0iHZ/NT/QjUY3kYdalw3sbCUZhaSXxvNHxupusvse37pYEjbvaeGS4Zb68zMPcZs+c0kwn249qC6CDoAqUT7QRC6peWc5QZLSZpZQRoVEaHscbZm6Vldb5HWimmsqRhNex3poN+J+FILZvt3s9KvIEggi0sTZDhqHztvn/NBOq404oAuO3Dq3vG7pT2uFM/oWaZ0WyT1UVv9tqTF+mXFXDt6jKWZo1036WyBddZzPjEUyR2KuY3gH6vt3SlOgoC9wricgI9PU7XXlDgxgZETlM/3uq2ZrtIdzym0Ri4yjjPiKWiENKj9z5lmDG4dWIUgcQ9XWsvkCY1LMtq5K17rI=
   app: travel-and-help-ci
   on:
     repo: stremann/travel-and-help-ci
