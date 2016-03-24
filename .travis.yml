@@ -4,10 +4,10 @@ node_js:
 git:
   depth: 3
 deploy:
-	skip_cleanup: true
-	provider: heroku
-    api_key:
-      secure: X5zNh7SCKm8EqScU5tCK6dVPn+qabfUYAF/E/9W/LTMjZh6hle8Q/pL5HOlcf4MAnFF5cbpf0sEqDx6fNmsh+o18R3xsxVOvgSfL+uEoKy/qSjgB4BCCMzJKgzGclCLsZ8US4NXZ7xDODBlGJjTWrN0ih1N/WjrDkUZ78i5NeBshWGWEW9ggPnBHvb6rVnS1gad2HiyUTnu1/sDROPE2H47p+5yXCqis3cdQgi7FTyGLI6RVjc/lhvvFRCtLF7RTJ/Th7yHyWOGB8OW8pg1lN/BcrrvsDIbdQWBWNZGhsiUL+i9q9Vc+AXu6SY3hyi48SIgNBkeJ+4bjDMjCsN1eQFxyyvXWUfytCO8lSQ48dgyCOZzDi4eTbbO+nPePDVG44MjkTUHiTXSx54rpsnaHlaIszGqIz3TFv7wKW0+qt4wmwVI+Nvs9CAgRRwz9HClhxrROsVECNxJU4HU9HUGm11TXLn26IYSphm1G6ZX38U2ESVZ2QEmseqPUEcSc+5W9JQ8Ecjlzxi3cHGAQOoDoPGdzBBTp/JQEuXBGInDDfjM/VzUhkf7458xNH7rmM5Ok8JhfOiFmCB/eyfaUzZ3ftmpsJUIs2YiQ/ypiHJROcWjEa0Ru6J1eBuK3RttMQlk3p6MsP3HRtzZX79dKDCvCaNXTYEDeAdAYLUgxAfO+EO0=
-    app: travel-and-help-ci
-    on:
-      repo: stremann/travel-and-help-ci
+  skip_cleanup: true
+  provider: heroku
+  api_key:
+  secure: X5zNh7SCKm8EqScU5tCK6dVPn+qabfUYAF/E/9W/LTMjZh6hle8Q/pL5HOlcf4MAnFF5cbpf0sEqDx6fNmsh+o18R3xsxVOvgSfL+uEoKy/qSjgB4BCCMzJKgzGclCLsZ8US4NXZ7xDODBlGJjTWrN0ih1N/WjrDkUZ78i5NeBshWGWEW9ggPnBHvb6rVnS1gad2HiyUTnu1/sDROPE2H47p+5yXCqis3cdQgi7FTyGLI6RVjc/lhvvFRCtLF7RTJ/Th7yHyWOGB8OW8pg1lN/BcrrvsDIbdQWBWNZGhsiUL+i9q9Vc+AXu6SY3hyi48SIgNBkeJ+4bjDMjCsN1eQFxyyvXWUfytCO8lSQ48dgyCOZzDi4eTbbO+nPePDVG44MjkTUHiTXSx54rpsnaHlaIszGqIz3TFv7wKW0+qt4wmwVI+Nvs9CAgRRwz9HClhxrROsVECNxJU4HU9HUGm11TXLn26IYSphm1G6ZX38U2ESVZ2QEmseqPUEcSc+5W9JQ8Ecjlzxi3cHGAQOoDoPGdzBBTp/JQEuXBGInDDfjM/VzUhkf7458xNH7rmM5Ok8JhfOiFmCB/eyfaUzZ3ftmpsJUIs2YiQ/ypiHJROcWjEa0Ru6J1eBuK3RttMQlk3p6MsP3HRtzZX79dKDCvCaNXTYEDeAdAYLUgxAfO+EO0=
+  app: travel-and-help-ci
+  on:
+    repo: stremann/travel-and-help-ci
