@@ -42,6 +42,6 @@ $ cordova emulate android
 ```sh
 $ heroku --version
 $ heroku create travel-and-help-ci
-$ travis setup heroku
+$ travis encrypt $(heroku auth:token) --add deploy.api_key
 $ git push heroku master
 ```
