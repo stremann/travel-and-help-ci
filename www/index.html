@@ -7,14 +7,24 @@
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/animation.css">
     <title>Hello World</title>
 </head>
-<body>
-<div class="app">
-    <h1>Apache Cordova</h1>
-    <div id="deviceready" class="blink">
-        <p class="event listening">Connecting to Device</p>
-        <p class="event received">Device is Ready</p>
+<body class="l-wrapper">
+<div class="l-main">
+    <figure class="b-logo">
+        <img class="b-logo__image"
+             src="/img/logo.png"
+             alt="logo"
+             role="img">
+        <figcaption class="b-logo__label">
+            Apache Cordova
+        </figcaption>
+    </figure>
+    <div id="deviceready"
+         class="b-blink a-blink">
+        <span class="b-blink__label">Connecting to Device</span>
+        <span class="b-blink__label">Device is Ready</span>
     </div>
 </div>
 <script src="./cordova.js"></script>
